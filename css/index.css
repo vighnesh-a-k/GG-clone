@@ -1,0 +1,378 @@
+body{
+    padding-left:6%;
+    padding-right:6%;
+    font-family: Arial;
+    
+  }
+
+
+  .top-bar{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .top-bar-social{
+    display:flex;
+    flex-direction:row;
+
+  }
+  .top-bar-details{
+    display:flex;
+    flex-direction:column;
+  }
+  .jumbotron{
+    
+    width:100%;
+    
+    position:relative;
+    height: 50%;
+
+    
+
+  }
+
+
+  header{
+    display:flex;
+    gap:100px;
+    
+  }
+  .main-heading{
+    font-size:50px;
+    
+
+  }
+  .image-container{
+    width:100%;
+    height:40%;
+  }
+  .image-jumbo{
+    width:100%;
+    height:550px;
+  }
+  .overlay-text{
+    margin-left:8%;
+    position: absolute;
+    top:10%;
+  }
+
+  .book-button{
+    width:60%;
+    color:white;
+    background-color:#17C1A3;
+    border-radius:10px;
+    border-style:none;
+    height:60px;
+  }
+
+
+
+  .container {
+    background-color:white;
+    left:4%;
+    padding:2%;
+    
+  
+    position: absolute;
+    top:90%;
+    height:40%;
+    width:85%;
+    
+    border-radius:10px;
+  }
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.column {
+    flex: 1;
+    margin-right: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+.container button {
+    width: 100%;
+    padding: 8px;
+    border-radius:5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-style:solid;
+    border-color: darkgrey;
+    height:40px;
+}
+
+.container button {
+    background-color:#17C1A3;
+    color: white;
+    border: none;
+    margin-top:23px;
+    margin-left:8px;
+    
+}
+
+.container button:hover {
+    background-color: #45a049;
+}
+.banner-2{
+    margin-top: 350px;
+    font-size:20px;
+    color:black;
+text-align:left;
+text-align:bottom;
+
+}
+.card-container{
+ 
+    display:flex;
+    flex-direction:row;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+.card-container img{
+    max-width: 100%;
+    height:auto;
+
+}
+.jumbotron-2{
+    margin-top:200px;
+    max-width:100%;
+
+    
+    padding-left:10%;
+    padding-right:10%;
+    
+    background-color:#EAF2FF;
+    padding-bottom:100px;
+
+}
+.jumbotron-2 img{
+    max-width:60%;
+    align-self:center;
+    align-self: top;
+    margin-left:20%;
+    
+
+    
+
+    height:auto;
+
+}
+.jumbotron-2-text-container{
+    display:flex;
+    flex-direction:row;
+    gap:15px;
+    margin-top:100px;
+   
+    
+}
+.jumbotron-2-text h1{
+    margin-left:10px;
+    margin-top:200px;
+    padding-left:180px;
+
+}
+.jumbotron-2-text-container div{
+    margin-top:10px;
+    font-size:15px;
+}
+#specialists-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Adjust as needed */
+}
+
+.grid-item-specialists {
+    text-align: center;
+}
+
+.specialist-image {
+    max-width: 100%;
+    height: 60%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.specialist-name,
+.specialist-title {
+    margin: 10px 0;
+    font-size: 16px;
+}
+#text-cont-1{
+    text-align: center;
+    margin-top:200px;
+}
+
+.view-all{
+    
+    margin:0;
+    background-color:#17C1A3;
+    height:60px;
+    width:15%;
+    align-self: center;
+    margin-left:45%;
+    border-radius:10px;
+    border:none;
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top:200px;
+}
+
+.left-container,
+.right-container {
+    width: 48%;
+    
+     /* Adjust as needed */
+}
+.left-container{
+    flex:3;
+}
+.right-container{
+    padding:5%;
+    flex:5;
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 16px;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust the gap as needed */
+  }
+
+  .nav-links p {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Optional: Center the text */
+  }
+
+  .nav-links a {
+  
+    font-weight:300;
+    cursor: pointer;
+  }
+
+
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.contact-info img {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .social-media img {
+    cursor: pointer;
+    
+  }
+
+/* Add more styles as needed */
+.jumbotron-3{
+    
+    display:flex;
+    margin-bottom:200px;
+    flex-direction:row;
+    gap:20px;
+}
+.jumbotron-3 img{
+    max-width: 30%;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+
+.jumbotron-4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap:30px;
+  }
+
+  .jumbotron-4-item {
+    flex: 1;
+    text-align: center; /* Optional: Center the content */
+  }
+
+  .jumbotron-4-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Optional: Add space below the image */
+  }
+
+  .top-container{
+    display:flex;
+    flex-direction:row;
+  }
+  .top-bar-2{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+
+  }
+  .top-bar-contacts{
+    margin-left:520px;
+  }
+  .top-bar-2 img{
+    height:20px;
+    width:20px;
+    margin-top:20px;
+
+  }
+ 
+  .contact-section {
+    margin-bottom: 20px;
+}
+
+.header-section {
+    padding-top: 20px;
+}
+
+.contact-section, .direct-contact, .social-links, .header-section, .navbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.top-bar{
+  background-color:#F5F5F5;
+}
