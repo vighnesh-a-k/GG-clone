@@ -1,25 +1,79 @@
+.top-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  z-index: 1000;
+}
+
+
+
+header {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-top:0; /* Adjust padding as needed */
+  background-color: #F5F5F5; /* Adjust background color as needed */
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+}
+
+.top-container h3 {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.top-bar-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.top-bar-contacts div {
+  margin-bottom: 5px; /* Adjust margin as needed */
+}
+
+.top-bar-contacts img {
+  margin-right: 5px; /* Adjust margin as needed */
+}
+
+
+main {
+  margin-top: 120px;
+}
+
+
 body{
-    padding-left:6%;
-    padding-right:6%;
+    
     font-family: Arial;
     
   }
-
-
-  .top-bar{
-    display:flex;
-    flex-direction: row;
-  }
-
-  .top-bar-social{
-    display:flex;
-    flex-direction:row;
+  .large-container{
+    width:100%;
+    padding-left:6%;
+    padding-right:6%;
 
   }
-  .top-bar-details{
-    display:flex;
-    flex-direction:column;
+
+  nav a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color to black */
   }
+  
+  nav a.active {
+    font-weight: bold; /* Optionally, make the active link bold */
+  }
+
   .jumbotron{
     
     width:100%;
@@ -340,26 +394,7 @@ text-align:bottom;
     margin-bottom: 10px; /* Optional: Add space below the image */
   }
 
-  .top-container{
-    display:flex;
-    flex-direction:row;
-  }
-  .top-bar-2{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-    
 
-  }
-  .top-bar-contacts{
-    margin-left:520px;
-  }
-  .top-bar-2 img{
-    height:20px;
-    width:20px;
-    margin-top:20px;
-
-  }
  
   .contact-section {
     margin-bottom: 20px;
@@ -373,6 +408,57 @@ text-align:bottom;
     background-color: #f0f0f0;
     padding: 10px;
 }
-.top-bar{
-  background-color:#F5F5F5;
+
+
+.jumbotron-4-item{
+  text-align:left;
+}
+
+
+
+
+
+main {
+  margin-top: 120px; /* Adjust this value to prevent overlap */
+}
+
+nav{
+  margin-left:0;
+}
+
+.subscribe-container{
+  width:80%;
+  margin:10%;
+  margin-top:30%;
+  margin-bottom:30%;
+
+}
+.subscribe-container {
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 70px;
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.subscribe-head {
+  font-size: xx-large;
+  font-weight: 700;
+  padding-left: 60px;
+  border-style: none;
+
+
+}
+
+#subscribe {
+  color: white;
+  background-color: #17C1A3;
+  width: 129px;
+  height: 55px;
+  border-width: 0px;
+  border-radius: 6px;
+  border-style: none;
+
 }
